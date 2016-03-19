@@ -1,0 +1,39 @@
+{
+  "author": "Hassan Khraim",
+  "dependencies": [
+	  {
+		  "name":"puppet/iis", 
+		  "version_requirement":">= 2.0.0"
+	  },{
+		  "name":"puppet/windowsfeature", 
+		  "version_requirement":">= 1.1.0"
+	  }
+  ],
+  "license": "Apache 2",
+  "name": "hkhraim/win_iis",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "Server 2008",
+        "Server 2008 R2",
+        "Server 2012",
+        "Server 2012 R2"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "project_page": "https://github.com/hkhraim/win_iis",
+  "source": "https://github.com/hkhraim/win_iis",
+  "summary": "This module manages Windows IIS Setup and hosts a default site at http://<serverfqdn>/mywebsite",
+  "version": "0.0.1"
+}
